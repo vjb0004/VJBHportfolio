@@ -1,78 +1,67 @@
-   /* General Styles */
 body {
-    font-family: "geneo-std", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #F5F5DC; /* Cream background */
-    color: #2C3E50; /* Dark text */
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-color: #DFD3C3;
+    color: #666D69;
 }
 
 .navbar {
-    background-color: #8E9864 !important; /* Sage Green */
+    background-color: #A6B2B5;
 }
 
 .navbar-brand, .nav-link {
+    font-family: 'Georgia', serif;
     color: #FFFFFF !important;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #D4E157 !important; /* Accent color */
+    color: #CA903E !important;
 }
 
-/* Hero Section */
 .hero {
-    background-color: #8E9864; /* Sage Green */
+    background-color: #A7BAA6;
     color: white;
-    padding: 50px 0;
 }
 
-.hero img {
-    border: 5px solid #F5F5DC; /* Cream border */
+.hero h1 {
+    font-family: 'Garamond', serif;
+    color: #924E3C;
 }
 
-/* Sections */
+.hero p {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
 section {
+    background-color: #C8D0BB;
     padding: 50px 0;
+}
+/* About Section */
+section.my-5 {
+    background-image: url('images/botanicbanner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    position: relative;
 }
 
 h1, h3 {
-    color: #2C3E50; /* Dark Green */
+    font-family: 'Garamond', serif;
+    color: #924E3C;
 }
 
 .btn-outline-dark {
-    border-color: #2C3E50;
-    color: #2C3E50;
+    border-color: #CA903E;
+    color: #CA903E;
 }
 
 .btn-outline-dark:hover {
-    background-color: #2C3E50;
+    background-color: #CA903E;
     color: white;
-}
-
-/* Timeline (Experience Page) */
-.timeline {
-    position: relative;
-    padding: 20px 0;
-}
-
-.timeline-item {
-    background: white;
-    padding: 15px;
-    border-left: 5px solid #8E9864;
-    margin-bottom: 15px;
-}
-
-/* Contact Page */
-form {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #8E9864;
-    color: white;
-    padding: 10px 0;
+    background-color: #666D69;
+    color: #DFD3C3;
 }
-
