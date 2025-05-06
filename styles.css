@@ -55,6 +55,9 @@ h1, h3 {
     border-color: #CA903E;
     color: #CA903E;
 }
+{
+.timeline {
+    padding-left: 2rem; /* Adjust as needed */}
 
 .btn-outline-dark:hover {
     background-color: #CA903E;
